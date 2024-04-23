@@ -38,7 +38,20 @@ public:
 };
 
 int main() {
-	membuat akses modifier yang bersifat public untuk kode MK, nama MK dan SKS di class Matakuliah
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	mhs.nama = "Budi";
+	mhs.umur = 20;
+	mhs.jurusan = "Teknik Informatika";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
+}
+
 	
 
 
