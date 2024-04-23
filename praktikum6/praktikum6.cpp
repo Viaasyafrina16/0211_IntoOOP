@@ -38,6 +38,7 @@ public:
 };
 
 int main() {
+	membuat akses modifier yang bersifat public untuk kode MK, nama MK dan SKS di class Matakuliah
 	
 
 
