@@ -52,6 +52,13 @@ int main() {
 	return 0;
 }
 
+// OOP 2
+
+#include <iostream>
+using namespace std;
+
+class bangunDatar{
+
 	
 
 
