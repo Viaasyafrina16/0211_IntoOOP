@@ -83,6 +83,13 @@ public:
 
 	}
 };
+int main() {
+	bangunDatar pp; // deklarasi onjek dari bangun datar
+	pp.input();
+	pp.display();
+
+	return 0;
+}
 
 
 
