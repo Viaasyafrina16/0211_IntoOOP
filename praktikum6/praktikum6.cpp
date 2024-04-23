@@ -21,13 +21,21 @@ class Matakuliah{
 		string namaMk;
 		int sks;
 	public :
-		void input(){
+		void input() {
 			cout << "kode MK: ";
 			cin >> kodeMK;
 			cout << "Nama MK: ";
-			cin >> namaMK;
+			cin >> namaMk;
 			cout << "SKS: ";
 			cin >> sks;
+		}
+
+		void output(){
+			cout << "Kode MK: " << kodeMK << endl;
+			cout << "Nama MK: " << namaMk << endl;
+			cout << "sks: " << sks << endl;
+
+
 
 
 
